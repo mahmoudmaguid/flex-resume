@@ -1,0 +1,79 @@
+
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+/* flex container ( dose noy to be doby  just use in  this example*/
+
+
+.flexbox{
+
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    width: 500px;
+}
+/* flex item*/
+.flex-item{
+
+    display: block;
+    width: 100%;
+    height:500px;
+    
+}
+.flex-home{
+
+    background:  rgb(99, 233, 99) ;
+   
+
+}
+.flex-ed{
+
+    background: rgb(124, 28, 28) ;
+    
+}
+.flex-we{
+
+    background: rgb(62, 62, 201) ;
+
+}
+.flex-cont{
+
+    background: rgb(230, 230, 19) ;
+    
+}
+.flex-name-photo{
+
+    background: rgb(107, 39, 172) ;
+    
+}
+.flex-objective{
+
+    background: rgb(211, 151, 39) ;
+    
+}
+
+.flex-refrece{
+
+    background: rgb(98, 117, 230) ;
+    
+}
+
+.flex-contact-info{
+
+    background: rgb(240, 11, 30) ;
+    
+}
+@media screen and (min-width:600px){
+    .flex-home,
+    .flex-ed,
+    .flex-we,
+    .flex-cont     {
+        width: 25%;
+         }
+        }
